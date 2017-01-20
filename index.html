@@ -4,23 +4,23 @@
     <style>
       .dotted { border-bottom: 1px black dotted; }
       .help { cursor: help; }
+      body { max-width: 840px; }
     </style>
   </head>
   <body>
     <h1>Ted Kornish</h1>
-    <p>Currently at <a href="https://cleargraph.io" target="_blank">ClearGraph</a> building ways for nontechnical agents to grapple with big financial data.</p>
+    <p>Currently at <a href="https://cleargraph.io" target="_blank">ClearGraph</a> building data discovery tools for nontechnical enterprise workers.</p>
     <p>Humans can be hard to replace but easy to empower.</p>
-    <p>I've coarchitected and implemented:</p>
+    <p>At ClearGraph, coarchitected and implemented:</p>
     <ul>
       <li>interactive visualization frameworks &mdash; abstracted on top of d3.js.</li>
       <li>data synchronization architecture &mdash; for fetching, storing, and syncing relational data from remote APIs.</li>
       <li>batch and streaming ETL systems&mdash; from Postgres, through Golang, to Redshift and Elasticsearch.</li>
       <li>in-house compilers &mdash; for a custom query language with natural language search capabilities.</li>
-      <li>interactive-latency querying over hundreds of millions of records &mdash; for ad-hoc questions about wide data. Built on Redshift.</li>
     </ul>
-    <p>Personal technical interests include expressive static type systems, functional programming, and immutable data flow.</p>
-    <p>Currently hacking on <a href="https://github.com/tedkornish/jgrep">jgrep</a>, a tool for querying JSON-formatted logs using an English-like syntax. Written in OCaml.</p>
-    <p>The best way to reach me is to email <span class="dotted help" title="Actually, email to any username at tedkornish dot com will reach me, so send it to something creative if you so feel.">hello at tedkornish dot com</span>.<p>
+    <p>Personal technical interests include expressive static type systems, functional programming, and compilers.</p>
+    <p>Recent small personal project: <a href="https://github.com/tedkornish/jgrep">jgrep</a>, a tool for querying JSON-formatted logs using English-like syntax. Written in OCaml, it's basically a compiler which maps English into <a href="https://github.com/stedolan/jq">jq</a>. Treating natural language querying like a rule-based compiler problem results in a small codebase (<300LOC) and solid performance (the actual work is being offloaded to a battle-tested tool!), if slightly inflexible syntax. A fun hack; OCaml is a delightful language.</p>
+    <p>The best way to reach out is to email <span class="dotted help" title="Actually, email to any username at tedkornish dot com will reach me, so send it to something creative if you so feel.">hello at tedkornish dot com</span>.<p>
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
